@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.egg
+pip-wheel-metadata/
+*.whl
+
+# Virtual environments — covers OwnWCTool/.venv/ and any future challenge venvs
+.venv/
+venv/
+env/
+ENV/
+.env/
+venv.bak/
+
+# pytest / coverage / type checkers
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter (in case later challenges use notebooks)
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
